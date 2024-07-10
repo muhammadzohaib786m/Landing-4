@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webpage 4 </title>
-</head>
+    <link rel="stylesheet" href="style.css">
+</head> 
 <body>
-    <h1>Oops</h1>
+    <button id="wow">
+        click me 
+        <span id="show"></span>
+    </button>
+<!--1  addeventlistener -->
+    <script>
+        const button = document.getElementById('wow')
+        const show = document.getElementById('show')
+        let counter = 0;
+        button.addEventListener("click", letsgo)
+        function letsgo() {
+            counter++
+            show.innerText = counter
+
+            
+        }
+
+    </script>
 </body>
 </html>

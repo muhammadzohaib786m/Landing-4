@@ -2,10 +2,23 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-     
 }
 html, body{
     width: 100%;  
     height: 100%;
-   
+    position: relative;
+}
+button#wow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px ;
+    color: red;
+    background-color: #000;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 5px lightcyan,
+                0 0 20px skyblue;
 }
